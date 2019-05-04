@@ -1,0 +1,74 @@
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<variables>
+		<mainBGColor>57007F</mainBGColor>
+		<altBGColor>420060</altBGColor>
+	</variables>
+
+	<view name="system">
+
+		<carousel name="systemcarousel">
+			<color>${mainBGColor}BF</color>
+		</carousel>
+
+		<text name="systemInfo">
+			<backgroundColor>${mainBGColor}7F</backgroundColor>
+		</text>
+
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>${mainBGColor}BF</selectorColor>
+			<secondaryColor>${altBGColor}BF</secondaryColor>
+		</textlist>
+
+	</view>
+
+	<view name="detailed, video">
+
+		<image name="background_metadata" extra="true">
+			<path>./../../images/meta_window.png</path>
+			<origin>0 0</origin>
+			<pos>0.72 0.06</pos>
+			<size>0.236 0.563</size>
+			<color>${mainBGColor}BF</color>
+			<zIndex>12</zIndex>
+		</image>
+
+		<image name="background_description" extra="true">
+			<path>./../../images/desc_window.png</path>
+			<origin>0 0</origin>
+			<pos>0.442 0.654</pos>
+			<size>0.5138 0.25</size>
+			<color>${mainBGColor}BF</color>
+			<zIndex>12</zIndex>
+		</image>
+
+	</view>
+
+	<view name="grid">
+
+		<image name="background_name" extra="true">
+			<path>./../../images/name_window.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.275</pos>
+			<size>0.7 0.0875</size>
+			<color>${mainBGColor}BF</color>
+			<zIndex>12</zIndex>
+		</image>
+
+		<gridtile name="default">
+			<backgroundColor>${altBGColor}7F</backgroundColor>
+		</gridtile>
+
+		<gridtile name="selected">
+			<backgroundColor>${mainBGColor}BF</backgroundColor>
+		</gridtile>
+	</view>
+
+</theme>

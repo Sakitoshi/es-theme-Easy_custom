@@ -1,0 +1,61 @@
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<variables>
+		<mainTextColor>57007F</mainTextColor>
+		<altTextColor>420060</altTextColor>
+	</variables>
+
+	<view name="system, basic, detailed, video, grid">
+
+		<helpsystem name="help">
+			<textColor>${mainTextColor}</textColor>
+			<iconColor>${mainTextColor}</iconColor>
+		</helpsystem>
+
+		<text name="systemInfo">
+			<color>${mainTextColor}</color>
+		</text>
+
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<primaryColor>${altTextColor}</primaryColor>
+			<selectedColor>${mainTextColor}</selectedColor>
+		</textlist>
+
+	</view>
+
+	<view name="detailed, video">
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>${altTextColor}</color>
+		</text>
+
+		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+			<color>${mainTextColor}</color>
+		</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>${mainTextColor}</color>
+		</datetime>
+
+		<rating name="md_rating">
+			<color>${mainTextColor}</color>
+		</rating>
+
+	</view>
+
+	<view name="grid">
+
+		<text name="md_name">
+			<color>${mainTextColor}</color>
+		</text>
+
+	</view>
+
+</theme>

@@ -1,0 +1,68 @@
+<!--
+To change wallpaper replace the background.png image located
+at the _background folder.
+The image will be stretched to fill all the screen.
+
+You can also add extra background images (they need to be png)
+for every system by naming the images as the system
+(e.g. snes.png, genesis.png, megadrive.png, etc... )
+depending what its theme parameter is set on es_systems.cfg
+
+For collections it need to be named after the collections
+(auto-allgames.png, auto-favorites.png, auto-lastplayed.png
+and custom-collections.png respectively)
+
+Below you can change the size of the grid view and the color
+of the text and text boxes.
+
+Grid sizes to choose from:
+1x3
+2x3
+1x5
+2x5
+
+Colors available:
+white
+grey
+black
+red
+brown
+orange
+beige
+yellow
+lime
+green
+aqua
+cyan
+light_blue
+blue
+purple
+magenta
+pink
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<variables>
+
+		<!-- Select grid size -->
+		<gridSize>1x3</gridSize>
+
+		<!-- Select text boxes color -->
+		<boxesColor>white</boxesColor>
+
+		<!-- Select text color -->
+		<textColor>black</textColor>
+
+	</variables>
+
+
+<!-- DON'T CHANGE ANYTHING BELOW THIS POINT -->
+
+	<include>./_inc/custom/grid_${gridSize}.xml</include>
+	<include>./_inc/custom/boxes/${boxesColor}.xml</include>
+	<include>./_inc/custom/text/${textColor}.xml</include>
+
+</theme>
