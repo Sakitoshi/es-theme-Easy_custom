@@ -12,8 +12,8 @@ For collections it need to be named after the collections
 (auto-allgames.png, auto-favorites.png, auto-lastplayed.png
 and custom-collections.png respectively)
 
-Below you can change the size of the grid view and the color
-of the text and text boxes.
+Below you can change the brightness of the background image,
+size of the grid view and the color of the text and text boxes.
 
 Grid sizes to choose from:
 1x3
@@ -46,6 +46,9 @@ pink
 	<formatVersion>4</formatVersion>
 
 	<variables>
+
+		<!-- Background brightness between 00 and FF -->
+		<bgBright>FF</bgBright>
 
 		<!-- Select grid size -->
 		<gridSize>1x3</gridSize>

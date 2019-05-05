@@ -17,6 +17,7 @@ author:			Sakitoshi
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
+			<color>${bgBright}${bgBright}${bgBright}</color>
 		</image>
 
 		<helpsystem name="help">
@@ -41,6 +42,7 @@ author:			Sakitoshi
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
+			<color>${bgBright}${bgBright}${bgBright}</color>
 			<zIndex>1</zIndex>
 		</image>
 
