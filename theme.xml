@@ -17,7 +17,6 @@ author:			Sakitoshi
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<color>${bgBright}${bgBright}${bgBright}</color>
 		</image>
 
 		<helpsystem name="help">
@@ -42,7 +41,6 @@ author:			Sakitoshi
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<color>${bgBright}${bgBright}${bgBright}</color>
 			<zIndex>1</zIndex>
 		</image>
 
@@ -216,6 +214,11 @@ author:			Sakitoshi
 			<fontPath>./_inc/fonts/OpenSans-Regular.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 		</text>
+
+		<image name="md_image">
+			<size>0.0 0.0</size>
+			<zIndex>-1</zIndex>
+		</image>
 
 	</view>
 

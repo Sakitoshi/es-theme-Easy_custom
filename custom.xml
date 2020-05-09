@@ -1,7 +1,6 @@
 <!--
 To change wallpaper replace the background.png image located
 at the _background folder.
-The image will be stretched to fill all the screen.
 
 You can also add extra background images (they need to be png)
 for every system by naming the images as the system
@@ -12,14 +11,14 @@ For collections it need to be named after the collections
 (auto-allgames.png, auto-favorites.png, auto-lastplayed.png
 and custom-collections.png respectively)
 
-Below you can change the brightness of the background image,
-size of the grid view and the color of the text and text boxes.
+Below you can change the size of the grid view and the color
+of the text and text boxes.
 
 Grid sizes to choose from:
-1x3
-2x3
-1x5
-2x5
+3x1
+3x2
+5x1
+5x2
 
 Colors available:
 white
@@ -47,11 +46,8 @@ pink
 
 	<variables>
 
-		<!-- Background brightness between 00 and FF -->
-		<bgBright>FF</bgBright>
-
 		<!-- Select grid size -->
-		<gridSize>1x3</gridSize>
+		<gridSize>3x1</gridSize>
 
 		<!-- Select text boxes color -->
 		<boxesColor>white</boxesColor>
